@@ -111,9 +111,9 @@ export default function AgeProof() {
 
         <div className="grid grid-cols-3 gap-3 mb-4">
           {[
-            { key: "birthYear",  label: "Birth Year",  placeholder: "2000", type: "number" },
+            { key: "birthDay",  label: "Birth Day",  placeholder: "15", type: "number" },
             { key: "birthMonth", label: "Birth Month", placeholder: "6",    type: "number" },
-            { key: "birthDay",   label: "Birth Day",   placeholder: "15",   type: "number" },
+            { key: "birthYear",   label: "Birth Year",   placeholder: "2000",   type: "number" },
           ].map(f => (
             <div key={f.key}>
               <label className="text-zinc-400 text-xs font-mono block mb-1">{f.label}</label>
