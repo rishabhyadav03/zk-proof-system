@@ -39,4 +39,4 @@ npm install
 npm run dev
 ```
 
-Open http://localhost:5173
+Open https://zk-proof-system.vercel.app/
